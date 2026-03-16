@@ -1,0 +1,41 @@
+Sri Ganeshaya Namaha
+
+npm init -y
+
+npm install express mongoose cors  
+
+npm install nodemon --save-dev
+
+created server.js file 
+
+MongoDB
+uname: smart-task-mng
+pswd: SmartTaskMng45
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+npm init > initializing a node project and -y means yes
+Where this npm init results in creating a folder called 'package.json'.
+this package.json store information of this project like project name, version, script, ....
+
+   
+npm install express mongoose cors > this command install packages.
+it downloads and adds these 3 packages to our node.js project
+these libraries like express.js, mongoose, cors are downloaded from npm
+we can check in package.json > dependencies 
+express - helps build servers & APIs
+mongoose - helps node.js connect to mongodb and manage data
+cors - allows different websites/apps(frontend) to communiacte to backend
+
+Finally, "npm install express mongoose cors" download these libraries from npm and 
+adds them to our node.js project so we build servers, connect to mongodb, and allow 
+frontend apps to access backend.
+
+
+npm install nodemon --save-dev > installs nodemon 
+nodemon is development tool that automatically restarts our node.js server when files are changed 
+are saved during development phase.
+
+
+
+
+
+
